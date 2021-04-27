@@ -47,6 +47,7 @@ public class Stock {
 		this.dividend = dividend;
 	}
 
-
-
+    public Double calculateYield() {
+        return dividend / price;
+    }
 }
